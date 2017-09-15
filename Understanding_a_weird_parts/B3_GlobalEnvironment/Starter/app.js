@@ -50,3 +50,16 @@ if( x === undefined ){
 
 // !!! never do dat shit
 var x = undefined; // cus its better to leave it to javascript engine - easier to track that shit
+
+
+// creation phase and execution phase 
+
+// Conceptual aside
+// single threaded  - one commant at a time - under the hood of the browser it may be not so - not only javascript is working in the browser at the same time
+// synchronous execution - one at a time and in order - javascript is synchronous in its execution - in its behaviour
+
+
+
+
+// function invocation and execution  stack
+    // invokation -  running a function - in Javascript by calling () - parathensis
